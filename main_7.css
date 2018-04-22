@@ -1,0 +1,11 @@
+.alert {
+	width: 13%;
+	width:calc(13% - 12px);
+	margin: 0 auto;
+	margin-right: 50px;
+	margin-left: 50px;
+	background: #FFA500;
+	color:#ffffff;
+	padding: 20px;
+	box-sizing: border-box;
+}

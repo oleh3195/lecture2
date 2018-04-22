@@ -1,0 +1,28 @@
+html, body {
+height: 100%;
+margin: 0;
+padding: 10px;
+}
+
+footer {
+	background-color: red;
+	color:white;
+	font-size: 20px;
+}
+footer h4 {
+padding: 15px;
+}
+
+.wrapper {
+	min-height: 60%;
+	margin-bottom: -100px;
+}
+
+.wrapper:after {
+content: "";
+display: block;
+}
+
+.wrapper:after, footer {
+	height: 52px;
+}

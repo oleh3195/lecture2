@@ -1,0 +1,13 @@
+p {
+	margin:20px;
+	pad: 20px;
+}
+
+p::first-letter{
+	font-size:1.4em;
+  color: #4682B4;
+}
+
+p::first-line{
+color: #87CEFA;
+}

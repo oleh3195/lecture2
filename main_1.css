@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ /*Create a Navigation bar (with dropdown) with CSS */
+
+#nav ul {
+	list-style: none;
+
+}
+
+#nav ul li {
+	background-color: green;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: white;
+	font-size: 30px;
+}
+
+#nav ul li:hover {
+	color: goldenrod;
+}
+
+#nav ul ul {
+	display: none;
+}
+
+#nav ul li:hover >ul {
+	display: block;
+}

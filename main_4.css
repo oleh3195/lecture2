@@ -1,0 +1,15 @@
+.btn:hover {
+	margin-top:7px;
+}
+
+.btn {
+	float:left;
+	margin-right: 3%;
+	margin-top:5px;
+	border-radius: 10px;
+	padding:5px 9px;
+	font-size: 1.2em;
+	background-color:#1E90FF;
+	color: white;
+	font-family: "Comic Sans MS";
+}
